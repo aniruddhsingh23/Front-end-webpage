@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(212, 103, 76);
+}
+#overlay{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height: 90%;
+    width: 90%;
+    background-color: rgb(221, 229, 231);
+    border: black solid 3px;
+    border-radius: 20px;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+#as i{
+    font-size: 25px;
+}
+
+#af i{
+    font-size: 25px;
+}
+#ad i{
+    font-size: 25px;
+}
+#vid{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 63%;
+    width: 23%;
+    top: 50%;
+    overflow: hidden;
+    left: 50%;
+    border-top-left-radius: 160px;
+    border-top-right-radius: 160px;
+}
+#bc{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+
+}
+#gh{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: rgb(212, 103, 76);
+    font-family: 'Forte';
+    font-weight: 100;
+    left: 50%;
+    top: 11%;
+    font-size: 90px;
+    letter-spacing: 3px;
+}
+#gj{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: rgb(212, 103, 76);
+    font-family: 'Forte';
+    font-weight: 100;
+    left: 50%;
+    top: 23%;
+    letter-spacing: 3px;
+    font-size: 90px;
+}
+#vb{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: rgb(212, 103, 76);
+    font-family: 'Forte';
+    font-weight: 100;
+    left: 50%;
+    top: 80%;
+    letter-spacing: 3px;
+    font-size: 90px;
+
+}
+#bn{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: rgb(212, 103, 76);
+    font-family: 'Forte';
+    font-weight: 100;
+    left: 50%;
+    top: 90%;
+    letter-spacing: 3px;
+    font-size: 90px;
+}
+#zx img{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 15%;
+    height: 200px;
+}
+#nm img{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 28%;
+    left: 80%;
+    height: 200px;
+}  
+#kl p{
+    position: absolute;
+    transform: translate(-505, -50%);
+    top: 38%;
+    left: 7%;
+    font-weight: 500;
+    font-family: 'Freestyle Script';
+}
+#mon{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    position: absolute;
+    bottom: 15%;
+    right: 15%;
+}  
+#monday i{
+    font-size: 60px;
+}
+#tuesday i{
+    font-size: 60px;
+}
